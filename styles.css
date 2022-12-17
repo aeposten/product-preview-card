@@ -26,15 +26,14 @@ body {
 
 main {
   width: 90vw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  max-width: 343px;
   background-color: white;
   border-radius: 0.5em;
   color: var(--grey);
 }
 
 .hero-img {
+  display: flex;
   width: 100%;
   border-top-left-radius: 0.5em;
   border-top-right-radius: 0.5em;
@@ -43,7 +42,6 @@ main {
 .subheading {
   text-transform: uppercase;
   font-size: 0.8rem;
-  font-weight: lighter;
 }
 
 h1 {
@@ -57,7 +55,7 @@ h1 {
 .txt-content {
   display: flex;
   flex-direction: column;
-  margin: 1.5em;
+  margin: 1.75em;
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -65,7 +63,7 @@ h1 {
 .prices {
   display: flex;
   align-items: center;
-  margin-top: 1em;
+  margin: 1em 0;
   gap: 2em;
 }
 
@@ -81,8 +79,7 @@ h1 {
 
 .cart-btn {
   display: flex;
-  gap: 2em;
-  margin-bottom: 2em;
+  gap: 1em;
   padding: 1.25em 7em;
   font-size: 0.8rem;
   font-weight: 700;
@@ -90,4 +87,31 @@ h1 {
   border-radius: 0.5em;
   background-color: var(--green);
   color: white;
+}
+
+@media (min-width: 768px) {
+    main {
+        min-width: 600px;
+        max-height: 450px;
+        flex-direction: row;
+    }
+    .hero-img {
+        display: flex;
+        border-top-right-radius: 0;
+        min-height: 450px;
+        max-width: 300px;
+        border-bottom-left-radius: 0.5em;
+    }
+
+    .txt-content {
+      margin: 1em;
+      display: flex;
+      justify-content: space-between;
+      height: 100%;
+      width: 50%;
+    }
+
+    .cart-btn {
+      gap:0.5em;
+    }
 }
