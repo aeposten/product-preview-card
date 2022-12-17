@@ -21,7 +21,7 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 
-main {
+.container {
   width: 90vw;
   max-width: 343px;
   background-color: white;
@@ -81,6 +81,7 @@ h1 {
   display: flex;
   gap: 1em;
   padding: 1.25em 6em;
+  margin-bottom: 1em;
   font-size: 0.8rem;
   font-weight: 700;
   border: none;
@@ -97,28 +98,26 @@ h1 {
 
 /* Responsive styling for larger screens */
 @media (min-width: 768px) {
-  main {
+  .container {
     min-width: 600px;
     max-height: 450px;
     display: flex;
-    flex-direction: column;
     align-items: center;
     flex-direction: row;
   }
   .hero-img {
     display: flex;
+    flex: 1;
     border-top-right-radius: 0;
-    min-height: 450px;
-    max-width: 300px;
     border-bottom-left-radius: 0.5em;
   }
 
   .txt-content {
-    margin: 1em;
     display: flex;
+    flex: 1;
     justify-content: space-between;
-    height: 100%;
-    width: 50%;
+    margin: 0 1em;
+    background-color: white;
   }
 
   .cart-btn {
