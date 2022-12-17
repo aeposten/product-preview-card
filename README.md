@@ -29,7 +29,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/product-preview-card-component-itAYSDzXfk](https://www.frontendmentor.io/solutions/product-preview-card-component-itAYSDzXfk)
 - Live Site URL: [https://amy-product-card.netlify.app](https://amy-product-card.netlify.app)
 
 
