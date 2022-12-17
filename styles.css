@@ -80,7 +80,7 @@ h1 {
 .cart-btn {
   display: flex;
   gap: 1em;
-  padding: 1.25em 7em;
+  padding: 1.25em 6em;
   font-size: 0.8rem;
   font-weight: 700;
   border: none;
