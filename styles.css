@@ -90,28 +90,31 @@ h1 {
 }
 
 @media (min-width: 768px) {
-    main {
-        min-width: 600px;
-        max-height: 450px;
-        flex-direction: row;
-    }
-    .hero-img {
-        display: flex;
-        border-top-right-radius: 0;
-        min-height: 450px;
-        max-width: 300px;
-        border-bottom-left-radius: 0.5em;
-    }
+  main {
+    min-width: 600px;
+    max-height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-direction: row;
+  }
+  .hero-img {
+    display: flex;
+    border-top-right-radius: 0;
+    min-height: 450px;
+    max-width: 300px;
+    border-bottom-left-radius: 0.5em;
+  }
 
-    .txt-content {
-      margin: 1em;
-      display: flex;
-      justify-content: space-between;
-      height: 100%;
-      width: 50%;
-    }
+  .txt-content {
+    margin: 1em;
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    width: 50%;
+  }
 
-    .cart-btn {
-      gap:0.5em;
-    }
+  .cart-btn {
+    gap: 0.5em;
+  }
 }
